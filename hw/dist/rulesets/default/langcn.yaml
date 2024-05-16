@@ -12,7 +12,7 @@ ui.helpContent: 每个月请选择你要做的事情使得你可以毕业. 所�
 ui.seedButton: 随机种子
 ui.seedTitle: 随机种子
 ui.seedContent: "当前的随机数种子为 **{{@seed}}**."
-ui.hopeMeter: 毕业希望值 {{player.hope}}/100
+ui.hopeMeter: 毕业希望值 {{@seed}}/100
 ui.timeMeter: 入学的第 {{year}} 年第 {{month}} 个月
 
 item.idea: 想法
