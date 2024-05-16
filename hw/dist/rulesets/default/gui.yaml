@@ -1,18 +1,24 @@
 ---
 statsBar:
   items:
-  - text: 毕业希望
-    side: middle
+  - text: ui.hopeMeter
     updateTrigger:
       variables: ["player.hope"]
     conditionalStyles:
-    - condition: player.hope > 49
+    - condition: player.hope > 80
+      styleClasses: ["very_safe"]
+    - condition: player.hope <= 80 && player.hope > 65
+      styleClasses: ["safe"]
+    - condition: player.hope <= 65 && player.hope > 51
       styleClasses: ["normal"]
-    - condition: player.hope <= 49 && player.hope > 24
+    - condition: player.hope <= 51 && player.hope > 40
+      styleClasses: ["weak_warning"]
+    - condition: player.hope <= 40 && player.hope > 30
       styleClasses: ["warning"]
-    - condition: player.hope <= 24
+    - condition: player.hope <= 30 && player.hope > 20
+      styleClasses: ["strong_warning"]
+    - condition: player.hope <= 20
       styleClasses: ["critical"]
-
 messageWindow:
   typewriterSpeed: 30
 itemList:
