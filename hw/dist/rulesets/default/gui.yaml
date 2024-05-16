@@ -1,8 +1,8 @@
 ---
 statsBar:
   items:
-  - text: 毕业希望值 {{player.hope}}/100
-    side: left
+  - text: 毕业希望
+    side: middle
     updateTrigger:
       variables: ["player.hope"]
     conditionalStyles:
@@ -12,10 +12,7 @@ statsBar:
       styleClasses: ["warning"]
     - condition: player.hope <= 24
       styleClasses: ["critical"]
-  - text: ui.timeMeter
-    side: right
-    updateTrigger:
-      variables: ["year", "month"]
+
 messageWindow:
   typewriterSpeed: 30
 itemList:
