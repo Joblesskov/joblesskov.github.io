@@ -75,8 +75,21 @@ em {
     margin: 0 0 0 0.5em;
     text-align: right;
 }
+.very_safe {
+    color: #00ff22;
+}
+.safe {
+    color: #9dff00;
+}
+.weak_warning {
+    color: #ff9d00;
+}
 .warning {
-    color: #ffb300;
+    color: #ff7700;
+}
+.strong_warning {
+    color: #ff4400;
+    animation: shake 1s infinite;
 }
 .critical {
     color: #b50000;
