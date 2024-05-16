@@ -1,7 +1,7 @@
 ---
 statsBar:
   items:
-  - text: ui.hopeMeter
+  - text: 毕业希望值 {{player.hope}}/100
     side: left
     updateTrigger:
       variables: ["player.hope"]
