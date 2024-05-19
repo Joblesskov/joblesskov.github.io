@@ -51,7 +51,7 @@ export class SimpleGameTextEngine implements GameTextEngine {
 
     render(src: string): string {
         // Step 1: interpolate
-        src = src.replace(/\{\{(@?[a-z0-9$_.]+)(:\d+)?\}\}/gi, (match, p1, p2) => {
+        src = src.replace(/tttt(@?[a-z0-9$_.]+)(:\d+)?tttt/gi, (match, p1, p2) => {
             if (p1[0] === '@') {
                 // Special variables
                 let specialVarName = p1.substring(1);
