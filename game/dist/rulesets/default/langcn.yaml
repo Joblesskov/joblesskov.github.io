@@ -148,9 +148,10 @@ message.equipmentBroken: 你师弟把实验室搞炸了.
 message.doNothing: 什么都不做.
 message.cannotUseEquipment: 你这个月没办法使用实验器材了，真该死.
 message.fixEquipment: 尝试搬砖修复一下.
+message.contactEquipmentSupport: 寻求技术人员的帮助.
 message.equipmentFixed: 你居然真的修复好了，真是个奇迹.
 message.equipmentNotFixed: 你尝试了一下，但是你发现自己修复不了.
-message.equipmentFixed2: 你的老板使用了金钱的力量成功修复了.
+message.equipmentFixedByTechSupport: 你找来技术人员成功修复了.
 message.newEquipment: 你的老板突然大发慈悲 **升级了实验室**. 所有人的很激动.
 message.cloudStorage: "大学通知: 我们突然大发慈悲，给你们开通了 **云端储存** ，请妥善使用."
 # conference event
