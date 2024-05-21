@@ -115,6 +115,11 @@ message.draftPaperComplete: 你完成了初稿并且提交了到某个期刊
 message.draftPaperIncomplete1: 你的老板顾着搞自己的项目并没有帮你改初稿，你需要稍等一下.
 message.draftPaperIncomplete2: 虽然你很努力，但是你并没有完成你的初稿，你需要更多背景的资料.
 message.draftPaperIncomplete3: 虽然你很努力，但是你并没有完成你的初稿，你需要更详细的结果描述.
+message.draftPaperIncomplete4: 虽然你很努力，但是你并没有完成你的初稿，你在LaTeX上浪费了太多时间. 
+message.draftPaperIncomplete5: 虽然你很努力，但是你并没有完成你的初稿，还有一两页要写.
+message.draftPaperIncomplete6: 老板读了一下你的初稿，建议你再好好写一下摘要.
+message.draftPaperIncomplete7: 老板读了一下你的初稿，发现你的图表有一些问题.
+
 message.paperAccepted: "邮件: 我们很高兴的告诉你，你的论文被 **接收了**."
 message.paperRejected1: "邮件: 根据审稿人的回复, 我们遗憾的告诉你，你的论文被 **拒稿了**. 有一个审稿人脑子有病看不出你论文的创新点在哪."
 message.paperRejected2: "邮件: 根据审稿人的回复, 我们遗憾的告诉你，你的论文被 **拒稿了**. 有一个审稿人脑子有病说你的论文有点矛盾."
@@ -125,6 +130,7 @@ message.paperRejected6: "邮件: 根据审稿人的回复, 我们遗憾的告诉
 message.paperRejected7: "邮件: 根据审稿人的回复, 我们遗憾的告诉你，你的论文被 **拒稿了**. 有一个审稿人脑子有病说你的假设根本不可能实现."
 message.paperRejected8: "邮件: 根据审稿人的回复, 我们遗憾的告诉你，你的论文被 **拒稿了**. 有一个审稿人脑子有病说你的论文没有足够的创新贡献."
 message.paperRejected9: "邮件: 根据审稿人的回复, 我们遗憾的告诉你，你的论文被 **拒稿了**. 有一个审稿人脑子有病说你的论文实验有问题，需要你重做."
+message.paperRejected10: "邮件: 根据审稿人的回复, 我们遗憾的告诉你，你的论文被 **拒稿了**. 有一个审稿人脑子有病说你缺少对前沿论文的引用."
 message.revisePaper: 检查修改并且重新提交你的论文.
 message.revisionComplete: 你根据审稿人以及编辑的回复，你修改了你的初稿并且重新提交了.
 message.resubmittedPaperAccepted: "邮件: 我们很高兴的告诉你，你的论文被 **接收了**."
@@ -180,6 +186,7 @@ message.rejectedPaperAdvisor: 你的老板知道你被拒稿了然后发邮件�
 message.paperCited: 你的论文被引数水涨船高，你觉得你受到了鼓舞.
 message.seminar1: 你出席了一个讲座，你觉得很有趣并且获得了一个 **想法**.
 message.seminar2: 一个知名学者开了一个讲座，你觉得受到了启发并且得到了一个 **想法**.
+message.seminar3: 你听了一场鼓舞人心的演讲，你突然有了一个 **想法**.
 message.showerIdea: 你洗澡的时候突然被醍醐灌顶（烂梗），你将一个初步的结果转化成了 **主要的成果**.
 message.randomHope1: 你去参观了一下城市展览馆，你觉得自己放松了.
 message.randomHope2: 校园附近有一场公开音乐会。 你花了一些时间享受音乐并感到轻松.
